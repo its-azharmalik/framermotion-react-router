@@ -20,10 +20,10 @@ const Home = ({ imageDetails, image }) => (
 							}}
 						>
 							<div className='frame'>
-								<Link to={`/model/yasmeen-tariq`}>
+								<Link to={`/blog/framer-motion`}>
 									<ProgressiveImage
-										src={require('../images/yasmeen.webp')}
-										placeholder={require('../images/compressed-image.jpg')}
+										src={require('../images/pic.jpg')}
+										placeholder={require('../images/pic.jpg')}
 									>
 										{(src) => (
 											<motion.img
@@ -43,10 +43,9 @@ const Home = ({ imageDetails, image }) => (
 							exit={{ opacity: 0, transition: transition }}
 							className='information'
 						>
-							<div className='title'>Yasmeen Tariq</div>
+							<div className='title'>Framer Motion, </div>
 							<div className='location'>
-								<span>28.538336</span>
-								<span>-81.379234</span>
+								<span>Implementing page transitions</span>
 							</div>
 						</motion.div>
 					</div>
